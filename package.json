@@ -107,18 +107,5 @@
     "@babel/runtime": "7.10.5",
     "react": "16.8.0",
     "react-dom": "16.8.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier -config ./prettier.config.js --write"
-    ],
-    "*.mdx": [
-      "prettier -config ./prettier.config.js --write --parser mdx"
-    ]
   }
 }
